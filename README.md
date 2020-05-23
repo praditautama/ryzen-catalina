@@ -74,9 +74,6 @@ Watch that Snazzy Labs video. Pay attention to video description. There are usef
 7. Deal with _config.plist_ (https://youtu.be/l_QPLl81GrY?t=807), pay attention to *OC Snapshot* step and applying _patches.plist_. 
 
 ### Step 2
-
-Even though Snazzy Labs suggest you to boot from the USB drive right away, you need to do few more things with your _config.plist_ before you can proceed.
-
 1. Relax security settings, otherwise you will not be able to boot:
    * For OC 0.5.5: set **Misc** -> **Security** -> **RequireVault** and **RequireSignature** to *False* in _config.plist_ (use Ctrl+F to lookup by key).
    * For OC 0.5.6: set **Misc** -> **Security** -> **Vault** to *Optional* 
